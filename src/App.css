@@ -1,0 +1,68 @@
+/* .App {
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+.day {
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+}
+
+.active {
+    background-color: teal;
+    color: white;
+} */
+body div.dark {background-color: #303030; color:white}
+
+.border {
+    padding:2em;
+}
+
+.centerInsides {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePageParent {
+    width: 85%;
+    height: 50%;
+    margin: auto;
+    margin-top:10em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#backgroundType {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cse441-group1.appspot.com/o/images%2Fgeert-pieters-3RnkZpDqsEI-unsplash.jpg?alt=media&token=b4d37a21-40e5-4127-87ee-1041e6000ea5");
+}
+
+#img {
+    width: 100%;
+}
+
+#classProfileBackground {
+    height:20em;
+    background-image: url("https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&fit=max&w=930");
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-top: 5%; */
+    background-size:cover
+}
+
+#classList {
+    padding: 1em;
+}
+
+.viewVideoHeader {
+    height: 10em; 
+    text-align: center;
+    padding:2em;    
+}
