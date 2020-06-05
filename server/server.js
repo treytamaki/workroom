@@ -5,7 +5,7 @@ const config     = require(path.join(__dirname,"../config/global.json"));
 const port       = config.Server.settings.port;
 const app        = express();
 
-const ProxyServer= 'http://treytamaki.github.io/workroom'+ config.Proxy.settings.port;
+const ProxyServer= 'http://treytamaki.github.io/workroom/'+ config.Proxy.settings.port;
 
 /**
  * WebSocket Configuration
