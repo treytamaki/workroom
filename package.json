@@ -31,13 +31,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start && cd server && node proxy.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "proxy": "cd server && nodemon proxy.js",
-    "server": "cd server && nodemon server.js",
-    "dev": "concurrently \"npm run proxy\" \"npm run server\""
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
